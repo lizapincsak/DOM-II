@@ -1,9 +1,11 @@
 // Your code goes here
 // 1 mouseover
-const signUpButton1 = document.querySelector('.btn');
+const signUpButton = document.querySelectorAll('.btn');
 
-signUpButton1.addEventListener('mouseover', function(event){
-    event.target.style.color = 'orange';
+signUpButton.forEach(b => {
+    b. addEventListener('mouseover', function(event){
+        event.target.style.color = 'orange';
+    })
 })
 
 // 2 wheel?? hella complicated
